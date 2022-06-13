@@ -65,7 +65,7 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("RexaMusic").error(
+        LOGGER("NekoMusic").error(
             "[ERROR] - \n\nSilakan aktifkan Panggilan Suara Grup Logger Anda. Pastikan Anda tidak pernah menutup/mengakhiri panggilan suara di grup log Anda"
         )
         sys.exit()
