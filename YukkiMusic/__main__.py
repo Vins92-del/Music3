@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("RexaMusic").info("Bot Musik Berhasil dibuat Berikan Ucapan Terimakasih kepada Rexa :D")
+    LOGGER("NekoMusic").info("Bot Musik Berhasil dibuat Berikan Ucapan Terimakasih kepada Nekocan :D")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("RexaMusic").info("Menghentikan Xa Music Bot! ")
+    LOGGER("NekoMusic").info("Menghentikan Neko Music Bot! ")
