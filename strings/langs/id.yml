@@ -13,8 +13,8 @@ tg_1 : "Bot **kelebihan beban** dengan unduhan sekarang.\n\n**Coba Setelah:** {0
 tg_2 : "Gagal mengunduh media dari telegram."
 
 # Core - Call.py
-call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke saluran Anda."
-call_2 : "Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\n**Nama Pengguna Asisten:** @{0}\n**ID Asisten:** {1}"
+call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke channel Anda."
+call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran.\n\n**Nama Pengguna Asisten:** @{0}\n**ID Asisten:** {1}"
 call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** Izin untuk mengundang akun asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
@@ -23,7 +23,7 @@ call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGG
 call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
 call_9 : "**Gagal mengganti Aliran**\nSilakan gunakan /skip untuk mengganti trek lagi."
 call_10 : "Mengunduh Lagu Berikutnya dari Daftar Putar"
-call_11 : "Tolong tambahkan @{0} ke saluran Anda[ ID: {1}].\n\nBot tidak bisa mendapatkan detail Channel."
+call_11 : "Tolong tambahkan @{0} ke channel Anda[ ID: {1}].\n\nBot tidak bisa mendapatkan detail Channel."
 
 # PLUGINS - Auth.py
 auth_1 : "Anda hanya dapat memiliki 20 Pengguna di Daftar Pengguna Resmi (AUL) grup Anda"
@@ -74,30 +74,30 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Bot 
 
 # Start
-start_1 : "Terima kasih telah menerima saya di {0}.\n{1} Saya Masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa Group dan Channel Support kami."
-start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegroupmu."
+start_1 : "Terima kasih telah menerima saya di {0}.\n{1} Saya Masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa Grup dan Channel Support kami."
+start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegrupmu."
 start_3 : "Selamat datang di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja ( sampai diminta ).\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2} "
 start_4 : "Pemilik {0}[{1}] baru saja bergabung dengan obrolan Anda."
 start_5 : "Anggota Pengguna Sudo {0}[{1}] baru saja bergabung dengan obrolan Anda."
-start_6 : "❗️ **Diperlukan Supergroup** ️\n\nHarap ubah **grup** Anda menjadi **grup super** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat grup super?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
+start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menjadi **grup super** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat grup super?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya atau bertanya di Group dukungan.\n\nSemua perintah dapat digunakan dengan: /"
+help_1 : "Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya atau bertanya di Grup dukungan.\n\nSemua perintah dapat digunakan dengan: /"
 help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
-setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Group:** {0}\n🔖**ID Group:** `{1}`\n\n💡**Pilih tombol fungsi dari di bawah ini yang ingin Anda edit atau ubah.**"
+setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih tombol fungsi dari di bawah ini yang ingin Anda edit atau ubah.**"
 setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar permintaan penelusuran secara langsung.\n\n2) Inline: Markup Inline untuk memilih antara Audio & Video."
 setting_4 : "⁉️ Apa Ini?\n\n👥 Everyone: Siapa saja dapat menggunakan perintah admin yang ada di grup ini.\n\n🙍 Admin Only: Hanya admin dan pengguna yang berwenang dapat menggunakan perintah admin."
 setting_5 : "Tidak Ditemukan Pengguna Resmi\n\nAnda dapat mengizinkan non-admin menggunakan perintah admin saya dengan /auth dan menghapus dengan menggunakan /unauth"
 setting_9 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
-setting_10 : "⁉️ Apa Ini?\n\n1) Group: Memutar musik di grup tempat perintah diberikan .\n\n2) Channel: Memutar musik di saluran yang Anda inginkan. Atur id saluran melalui /channelplay"
+setting_10 : "⁉️ Apa Ini?\n\n1) Grup: Memutar musik di grup tempat perintah diberikan .\n\n2) Channel: Memutar musik di channel yang Anda inginkan. Atur id channel melalui /channelplay"
 setting_11 : "⁉️ Apa Ini?\n\n1) Siapa saja dapat menggunakan perintah admin yang ada di grup ini.\n\n2) Admin Only: Hanya admin yang dapat memutar musik di grup ini."
-setting_12 : "❌ Anda tidak memiliki id saluran yang ditentukan untuk mode saluran. Silakan tentukan dengan /channelplay."
-setting_13 : "Tidak dapat mengubah mode putar dalam panggilan group aktif. Harap hentikan obrolan suara terlebih dahulu dengan /stop."
+setting_12 : "❌ Anda tidak memiliki id channel yang ditentukan untuk mode channel. Silakan tentukan dengan /channelplay."
+setting_13 : "Tidak dapat mengubah mode putar dalam panggilan grup aktif. Harap hentikan obrolan suara terlebih dahulu dengan /stop."
 setting_14 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya.\n\nBot akan membutuhkan hak menghapus pesan admin untuk ini bekerja dengan benar."
-setting_15 : "Gagal menyelesaikan peer, Pastikan Anda telah menambahkan bot di saluran Anda dan mempromosikannya sebagai admin.\n\nCoba setel /channelplay lagi.."
+setting_15 : "Gagal menyelesaikan peer, Pastikan Anda telah menambahkan bot di channel Anda dan mempromosikannya sebagai admin.\n\nCoba setel /channelplay lagi.."
 setting_16 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menyarankan obrolan Anda setiap 1-2 jam tentang perintah bot (Cara menggunakannya, yang merupakan perintah dan banyak hal lainnya) secara acak."
 
 
@@ -134,7 +134,7 @@ play cb1 : "Ini bukan untukmu! Cari Lagumu Sendiri."
 play cb2 : "Mendapatkan Hasil Selanjutnya"
 
 # Channel Play
-cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini[{0}] ke channel mana pun atau Channdl tertaut obrolan Anda.\n\n**Untuk saluran tertaut:**\n`/{1} linked`\n\n* *Untuk Channel lainnya:**\n`/{1} [ID Channel]`"
+cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini[{0}] ke channel mana pun atau Channdl tertaut obrolan Anda.\n\n**Untuk channel tertaut:**\n`/{1} linked`\n\n* *Untuk Channel lainnya:**\n`/{1} [ID Channel]`"
 cplay_2 : "Obrolan ini tidak memiliki channel tertaut."
 cplay_3 : "Channel Ditetapkan ke {0}\n\n__ID Channel__: {1}"
 cplay_4 : "Gagal mendapatkan channel.\n\nPastikan Anda telah menambahkan bot di channel Anda dan mempromosikannya sebagai admin.\nEdit atau Ubah channel melalui /channelplay"
@@ -143,7 +143,7 @@ cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya de
 
 #Play
 play_1 : "🔄 Memproses permintaan anda... Harap Tunggu!"
-play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses permintaan anda... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses permintaan anda... Harap Tunggu!\n**Channel Tertaut:** {0}"
 play_3 : "Gagal Memproses permintaan anda!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
@@ -247,9 +247,9 @@ L_B_1 : "🚀 Lihat Lirik Sekarang"
 # Start
 S_B_1 : "🗒 Perintah"
 S_B_2 : "⚙️ Pengaturan"
-S_B_3 : "👥 Group"
+S_B_3 : "👥 Grup"
 S_B_4 : "⚡ Channel"
-S_B_5 : "✚ Tambahkan ke Group"
+S_B_5 : "✚ Tambahkan ke Grup"
 S_B_6 : "⚡ Repository"
 S_B_7 : "👨‍💻 Pemilik"
 S_B_8 : "🔎 Menu Perintah."
@@ -283,7 +283,7 @@ PL_B_6 : "↗️ Hapus Daftar Putar"
 PL_B_7 : "❗️ Ya, saya yakin"
 PL_B_8 : "🔢 Mainkan Top 10"
 PL_B_9 : "🤖 Mainkan Top 10 Global"
-PL_B_10 : "🏘 10 Top Group Play"
+PL_B_10 : "🏘 10 Top Grup Play"
 PL_B_11 : "👤 Mainkan Top 10 Pribadi"
 
 #Settings
@@ -310,8 +310,8 @@ ST_B_20 : "✅ Direct"
 ST_B_21 : "✅ Inline"
 ST_B_22 : "👨‍⚖️ Perintah Admin"
 ST_B_23 : "🏘 Grup"
-ST_B_24 : "🏷 Saluran"
-ST_B_25 : "🕹️ Type Perintah"
+ST_B_24 : "🏷 Channel"
+ST_B_25 : "🔣 Tipe Perintah"
 ST_B_26 : "🗑 Perintah Bersih"
 ST_B_27 : "🧑‍🚀 Mode Saran"
 
