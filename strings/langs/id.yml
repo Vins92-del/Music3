@@ -88,7 +88,7 @@ help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Group:** {0}\n🔖**ID Group:** `{1}`\n\n💡**Pilih tombol fungsi dari di bawah ini yang ingin Anda edit atau ubah.**"
-setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar permintaan penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Inline: Mengembalikan Tombol Markup Inline untuk memilih antara video & audio."
+setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar permintaan penelusuran secara langsung.\n\n2) Inline: Markup Inline untuk memilih antara Audio & Video."
 setting_4 : "⁉️ Apa Ini?\n\n👥 Everyone: Siapa saja dapat menggunakan perintah admin yang ada di grup ini.\n\n🙍 Admin Only: Hanya admin dan pengguna yang berwenang dapat menggunakan perintah admin."
 setting_5 : "Tidak Ditemukan Pengguna Resmi\n\nAnda dapat mengizinkan non-admin menggunakan perintah admin saya dengan /auth dan menghapus dengan menggunakan /unauth"
 setting_9 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
@@ -172,7 +172,7 @@ playlist_6 : "Hubungi saya di PM untuk penghapusan Daftar Putar."
 playlist_7 : "Tracks Inside Playlist: {0}\n\nTekan Tombol untuk menghapus trek tertentu di playlist Anda.\n\nUntuk menghapus seluruh playlist: Tekan tombol Del Whole Playlist."
 playlist_8 : "Sudah Ada\n\nTrek ini ada di daftar putar Anda."
 playlist_9 : "Maaf! Anda hanya dapat memiliki {0} musik di daftar putar."
-playlist_10 : "Playlist Addition\n\n{0}\nadded to your playlist."
+playlist_10 : "Playlist Addition\n\n{0}\nTambah playlist."
 playlist_11 : "Berhasil menghapus trek Anda."
 playlist_12 : "Gagal menghapus trek Anda."
 playlist_13 : "Menghapus seluruh daftar putar Anda dari server."
@@ -200,12 +200,12 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan
 #Lyrics
 lyrics_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
 lyrics_2 : "Mencari Lirik"
-lyrics_3 : "❌ Gagal mengambil lirik😞.\n\n💡**Mencoba Mencari:** {0}"
+lyrics_3 : "❌ Gagal mengambil lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶🚀: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: {3}\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: {4}\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: {5}\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
+ping_2 : "**{0}** Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: {3}\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: {4}\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: {5}\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Silakan mulai saya dalam obrolan pribadi."
