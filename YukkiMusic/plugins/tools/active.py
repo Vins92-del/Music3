@@ -69,7 +69,7 @@ async def activevi_(_, message: Message):
             text += f"<b>{j + 1}. {title}</b> [`{x}`]\n"
         j += 1
     if not text:
-        await mystic.edit_text("No Active Voice Chats")
+        await mystic.edit_text("Tidak Ada Obrolan Video Aktif")
     else:
         await mystic.edit_text(
             f"**Obrolan Video Aktif:-**\n\n{text}",
