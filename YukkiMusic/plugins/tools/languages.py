@@ -35,22 +35,6 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇮🇩 Jawa",
-            callback_data=f"languages:jawa",
-        ),
-        InlineKeyboardButton(
-            text="🇮🇩 Sunda",
-            callback_data=f"languages:sunda",
-        ),
-    )
-    keyboard.row(
-        InlineKeyboardButton(
-            text="☠️ Toxic",
-            callback_data=f"languages:toxic",
-        ),
-    )
-    keyboard.row(
-        InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
         ),
