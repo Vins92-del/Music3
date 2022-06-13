@@ -88,12 +88,12 @@ help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Group:** {0}\n🔖**ID Group:** `{1}`\n\n💡**Pilih tombol fungsi dari di bawah ini yang ingin Anda edit atau ubah.**"
-setting_3 : "⁉️ Apa Ini?\n\n1) Langsung: Memutar kueri penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Sebaris: Mengembalikan Tombol Markup Sebaris untuk memilih antara video & audio."
-setting_4 : "⁉️ Apa Ini?\n\n👥 Semua Orang: Siapa saja dapat menggunakan perintah admin (lewati, jeda, lanjutkan, dll.) yang ada di grup ini.\n\n🙍 Hanya Admin: Hanya admin dan pengguna yang berwenang yang dapat menggunakan perintah admin ."
+setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar kueri penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Inline: Mengembalikan Tombol Markup Inline untuk memilih antara video & audio."
+setting_4 : "⁉️ Apa Ini?\n\n👥 Everyone: Siapa saja dapat menggunakan perintah admin (lewati, jeda, lanjutkan, dll.) yang ada di grup ini.\n\n🙍 Admin Only: Hanya admin dan pengguna yang berwenang yang dapat menggunakan perintah admin ."
 setting_5 : "Tidak Ditemukan Pengguna Resmi\n\nAnda dapat mengizinkan non-admin menggunakan perintah admin saya dengan /auth dan menghapus dengan menggunakan /unauth"
 setting_9 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
-setting_10 : "⁉️ Apa Ini?\n\n1) Grup: Memutar musik di grup tempat perintah diberikan .\n\n2) Saluran: Memutar musik di saluran yang Anda inginkan. Atur id saluran melalui /channelplay"
-setting_11 : "⁉️ Apa Ini?\n\n1) Semua Orang: Siapa saja yang hadir di grup ini dapat memutar musik di sini.\n\n2) Hanya Admin: Hanya admin yang dapat memutar musik di grup ini."
+setting_10 : "⁉️ Apa Ini?\n\n1) Group: Memutar musik di grup tempat perintah diberikan .\n\n2) Channel: Memutar musik di saluran yang Anda inginkan. Atur id saluran melalui /channelplay"
+setting_11 : "⁉️ Apa Ini?\n\n1) Everyone: Siapa saja yang hadir di grup ini dapat memutar musik di sini.\n\n2) Admin Only: Hanya admin yang dapat memutar musik di grup ini."
 setting_12 : "❌ Anda tidak memiliki id saluran yang ditentukan untuk mode saluran. Silakan tentukan dengan /channelplay."
 setting_13 : "Tidak dapat mengubah mode putar dalam panggilan group aktif. Harap hentikan obrolan suara terlebih dahulu dengan /stop."
 setting_14 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya (/play, /pause, /shuffle, /stop dll).\n\nBot akan membutuhkan hak menghapus pesan admin untuk ini bekerja dengan benar."
@@ -205,8 +205,7 @@ lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian 
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} berfungsi baik dengan ping `{1}` md.\n\nWaktu aktif bot adalah {2} dan telah menggunakan total {3} penyimpanan server. Beban CPU sekitar {4} dengan konsumsi {5} Ram. Klien Py-Tgcalls juga memiliki ping `{6}` ms yang bagus."
-
+ping_2 : "{0} Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶🚀: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: {3}\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: {4}\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: {5}\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Silakan mulai saya dalam obrolan pribadi."
@@ -237,10 +236,10 @@ stream_4 : "⚡ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Dur
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON : "🗑 Tutup"
-CLOSEMENU_BUTTON : "🗑 Tutup Menu"
-BACK_BUTTON : "⬅ Kembali"
-UNBAN_BUTTON : "🗑 Unban Asisten"
+CLOSE_BUTTON  : "🗑 𝚃𝚄𝚃𝚄𝙿"
+CLOSEMENU_BUTTON  : "🗑 𝚃𝚄𝚃𝚄𝙿 𝙼𝙴𝙽𝚄"
+BACK_BUTTON : "⬅️ 𝙺𝙴𝙼𝙱𝙰𝙻𝙸"
+UNBAN_BUTTON : "🗑 𝚄𝙽𝙱𝙰𝙽 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃"
 
 #Lyrics
 L_B_1 : "🚀 Lihat Lirik Sekarang"
@@ -269,15 +268,15 @@ PM_B_2 : "Markup Sebaris"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 Putar Audio"
-P_B_2 : "🎥 Putar Video"
-P_B_3 : "🎙️ Mulai Streaming"
-P_B_4 : "💿 Putar Playlist"
+P_B_1 : "🎵 𝙰𝚄𝙳𝙸𝙾"
+P_B_2 : "🎥 𝚅𝙸𝙳𝙴𝙾"
+P_B_3 : "🏮 𝙻𝙸𝚅𝙴 𝚂𝚃𝚁𝙴𝙰𝙼𝙸𝙽𝙶"
+P_B_4 : "🎵 𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃"
 
 #Playlist
 PL_B_1 : "🚀 Putar Playlist"
 PL_B_2 : "✚ Daftar Putar"
-PL_B_3 : "✚ Tambahan"
+PL_B_3 : "✚ cPanel"
 PL_B_4 : "📡 Mode Putar"
 PL_B_5 : "🔄 Hapus Semua Daftar Putar"
 PL_B_6 : "↗️ Hapus Daftar Putar"
@@ -307,8 +306,8 @@ ST_B_16 : "👤 Admin"
 ST_B_17 : "👥 Semuanya"
 ST_B_18 : "📋 Daftar Auth"
 ST_B_19 : "🔎 Mode Pencarian"
-ST_B_20 : "✅ Langsung"
-ST_B_21 : "✅ Sebaris"
+ST_B_20 : "✅ Direct"
+ST_B_21 : "✅ Inline"
 ST_B_22 : "👨‍⚖️ Perintah Admin"
 ST_B_23 : "🏘 Grup"
 ST_B_24 : "🏷 Saluran"
