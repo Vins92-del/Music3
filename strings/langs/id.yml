@@ -198,14 +198,14 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
+lyrics_1 : "**Penggunaan:**\n\n/lirik [Nama Musik]"
 lyrics_2 : "Mencari Lirik"
 lyrics_3 : "❌ Gagal mengambil lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "**{0}** Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: {3}\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: {4}\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: {5}\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
+ping_2 : "**{0}** Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: `{3}`\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: `{4}`\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: `{5}`\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Silakan mulai saya dalam obrolan pribadi."
@@ -224,14 +224,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⤵️ Ditambahkan ke Antrian ke **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** {3}"
+queue_4 : "⤵️ Ditambahkan ke Antrian **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** `{3}`"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
-stream_1 : "⚡ **Memulai Streaming** 💡\n\n👤 **Diminta Oleh:** {0}\n🌐 **Informasi: **[Here]({1})"
-stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤 **Diminta Oleh:** {0}"
-stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷 Judul:** {0}\n⌛️ **Durasi**: {1}\n👤 **Diminta Oleh:** {2} "
-stream_4 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️ **Durasi**: {2}\n👤 **Diminta Oleh:** {3}"
+stream_1 : "⚡ **Memulai Streaming** \n\n👤 **Diminta Oleh:** `{0}`\n🌐 **Informasi: **[Here]({1})"
+stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤 **Diminta Oleh:** `{0}`"
+stream_3 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** {0}\n⌛️ **Durasi**: {1}\n👤 **Diminta Oleh:** `{2}`"
+stream_4 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️ **Durasi**: {2}\n👤 **Diminta Oleh:** `{3}`"
 
 # Inline Buttons
 
@@ -246,7 +246,7 @@ L_B_1 : "🚀 Lihat Lirik Sekarang"
 
 # Start
 S_B_1 : "🗒 Perintah"
-S_B_2 : "🔧 Pengaturan"
+S_B_2 : "⚙️ Pengaturan"
 S_B_3 : "👥 Group"
 S_B_4 : "⚡ Channel"
 S_B_5 : "✚ Tambahkan ke Group"
