@@ -3,7 +3,7 @@ name : Indonesia
 # General Strings
 general_1 : "Balas pesan pengguna atau berikan nama pengguna/id_pengguna"
 general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
-general_3 : "Beberapa **pengecualian terjadi** saat memproses kueri Anda.\n\nJenis Pengecualian:- {0}"
+general_3 : "Beberapa **pengecualian terjadi** saat memproses permintaan Anda.\n\nJenis Pengecualian:- {0}"
 general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali ke Akun Pengguna Dari Hak Admin."
 general_5 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini."
 general_6 : "Bot tidak streaming di voice chat."
@@ -88,7 +88,7 @@ help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Group:** {0}\n🔖**ID Group:** `{1}`\n\n💡**Pilih tombol fungsi dari di bawah ini yang ingin Anda edit atau ubah.**"
-setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar kueri penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Inline: Mengembalikan Tombol Markup Inline untuk memilih antara video & audio."
+setting_3 : "⁉️ Apa Ini?\n\n1) Direct: Memutar permintaan penelusuran secara langsung. Gunakan -v untuk memutar video dalam mode langsung.\n\n2) Inline: Mengembalikan Tombol Markup Inline untuk memilih antara video & audio."
 setting_4 : "⁉️ Apa Ini?\n\n👥 Everyone: Siapa saja dapat menggunakan perintah admin yang ada di grup ini.\n\n🙍 Admin Only: Hanya admin dan pengguna yang berwenang dapat menggunakan perintah admin."
 setting_5 : "Tidak Ditemukan Pengguna Resmi\n\nAnda dapat mengizinkan non-admin menggunakan perintah admin saya dengan /auth dan menghapus dengan menggunakan /unauth"
 setting_9 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menghapus pesannya setelah {0} untuk membuat obrolan Anda bersih dan jelas."
@@ -117,7 +117,7 @@ ustats_2 : "Salam!, Anda telah memainkan **{0}** trek sampai sekarang dengan hit
 gstats_1 : "Mendapatkan Statistik Global, Ini bisa memakan waktu..."
 gstats_2 : "Statistik Tidak Ditemukan."
 gstats_3 : "Mendapatkan 10 Teratas Global {0} di bot, Ini bisa memakan waktu lama.."
-gstats_4 : "**Total Kueri di Bot:** {0}\n\n{1} telah memainkan **{2}** trek hingga sekarang dengan jumlah **{3}** kali.\n \n**Trek {4} Teratas:**\n"
+gstats_4 : "**Total Permintaan di Bot:** {0}\n\n{1} telah memainkan **{2}** trek hingga sekarang dengan jumlah **{3}** kali.\n \n**Trek {4} Teratas:**\n"
 gstats_5 : "**Top {0} Obrolan {1}:**\n\n"
 gstats_6 : "**Pengguna {0} Teratas {1}:**\n\n"
 gstats_7 : "Grup obrolan ini telah memainkan **{0}** trek hingga sekarang dengan jumlah **{1}** kali.\n\n{2} teratas dimainkan oleh grup obrolan ini:\n\n"
@@ -143,7 +143,7 @@ cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya de
 
 #Play
 play_1 : "🔄 Memproses permintaan anda... Harap Tunggu!"
-play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses permintaan anda... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses permintaan anda!"
 play_4 : "🖇 **Admin Only Play**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
@@ -152,7 +152,7 @@ play_7 : "Maaf! Bot hanya mengizinkan panggilan video dalam jumlah terbatas kare
 play_8 : "Bukan Ekstensi File Video yang Valid!\n\n**Format yang Didukung:** {0}"
 play_9 : "Ukuran File Video Harus Kurang dari 1 GiB"
 play_10 : "**Fitur Daftar Putar YouTube**\n\nPilih Mode di mana Anda ingin memutar seluruh Daftar Putar Youtube"
-play_11 : "📎Judul: **{0}\n\n⏳Durasi:** {1} Menit"
+play_11 : "📎 Judul: **{0}\n\n⏳ Durasi:** {1} Menit"
 play_12 : "**Mode Putar Spotify**\n\nDiminta Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya-tanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
@@ -224,14 +224,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n⏰**Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
+queue_4 : "⤵️ Ditambahkan ke Antrian ke **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** {3}"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
-stream_1 : "⚡ **Memulai Streaming** 💡\n\n👤**Diminta Oleh:** {0}\n🔦**Informasi: **[Di Sini]({1})"
-stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "⚡ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_1 : "⚡ **Memulai Streaming** 💡\n\n👤 **Diminta Oleh:** {0}\n🔦 **Informasi: **[Here]({1})"
+stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤 **Diminta Oleh:** {0}"
+stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷 Judul:** {0}\n⌛️ **Durasi**: {1}\n👤 **Diminta Oleh:** {2} "
+stream_4 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️ **Durasi**: {2}\n👤 **Diminta Oleh:** {3}"
 
 # Inline Buttons
 
